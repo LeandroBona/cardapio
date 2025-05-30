@@ -1,8 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff8e1;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 header{
@@ -32,3 +38,14 @@ header{
     color: #e65100;
 }
 
+.item p{
+    margin: 5px 0;
+}
+
+footer{
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
